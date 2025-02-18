@@ -5,31 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mini</title>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./styles/output.css">
 </head>
 <body>
     <div class="container-fluid">
         <!---------------------------------------navbar-------------------------------------  -->
-      <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <nav class=" border-gray-200 dark:bg-gray-900 dark:border-gray-700 w-full sticky top-0 z-100">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 w-[87%]">
           <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Jadoo</span>
           </a>
-          <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
-              <span class="sr-only">Open main menu</span>
-              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-              </svg>
-          </button>
+        
           <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-            <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
-                <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Desitnations</a>
+                <a href="#" class="text-[#5E6282] block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Desitnations</a>
               </li>
-              <li>
-                  <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Dropdown <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-        </svg></button>
+              
+                 
               <li>
                 <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Hotels</a>
               </li>
@@ -65,43 +59,50 @@
 
       <!---------------------------------------main-------------------------------------  -->
       <section>
-        <div class="flex items-center justify-between w-[90%] mx-auto">
+        <div class="flex items-center justify-between w-[85%] mx-auto mt-[70px]">
           <div class="w-[50%]">
-            <h6 class="text-1xl text-orange-600 font-bold">BEST DESITNATIONS AROUND THE WORLD</h6>
-            <h6 class="text-7xl font-bold">
-              Travel, enjoy <br>
+            <h6 class="text-1xl text-[#DF6951] font-bold">BEST DESITNATIONS AROUND THE WORLD</h6>
+            <h6 class="text-7xl font-bold font-[Garamond] text-[#181E4B]">
+              Travel, <span class="underline decoration-[#DF6951] decoration-10">enjoy</span> <br>
               and live a new <br>
               and full life <br>
             </h6>
-            <p class="mt-5">
+            <p class="mt-5 font-[] text-[#5E6282]">
               Built Wicket longer admire do barton vanity itself do in it.<br>
               Preferred to sportsmen it engrossed listening. <br>
               Park gate sell they west hard for the.
             </p>
-            <button type="button" class="focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">Find out more</button>
-            <button type="button" class="rounded-full w-[50px] h-[50px] bg-orange-600 mt-5">kk</button> Play Demo
+            <button type="button" class="focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900  shadow-lg shadow-yellow-300 dark:shadow-lg">Find out more</button>
+            <button type="button" class="rounded-full w-[50px] h-[50px] bg-orange-600 mt-5 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 text-[#5E6282]"><i class="fa-solid fa-play text-white"></i></button> <span class="text-[#5E6282]">Play Demo</span>
           </div>
           <div class="w-[50%]">
-            <img src="./images/4.png" alt="">
+            <img src="./images/plane.png" class="z-50 absolute w-[150px] h-[100px] top-30 left-[750px]" alt="">
+            <img src="./images/4.png" alt="" class="z-5 absolute top-20">
+            <img src="./images/Decore.png" class="absolute top-0 right-0 z-1" alt="">
+            <img src="./images/plane.png" class="z-4 absolute w-[150px] h-[100px] top-50 left-[1100px]" alt="">
           </div>
         </div>
       </section>
 
       <!---------------------------------------card-------------------------------------  -->
-      <section class=" pt-5 pb-5">
+      <section class=" pt-5 pb-5 mt-[100px]">
           <div>
-            <p class="text-center text-1xl">Top Selling</p>
-            <p class="text-center text-4xl mt-3 mb-5">Top Destinations</p>
+            <p class="text-center text-1xl text-[#5E6282]">Top Selling</p>
+            <p class="text-center text-4xl mt-3 mb-5 font-[Garamond] text-[#181E4B] font-bold">Top Destinations</p>
           </div>
           <div class="flex items-center justify-evenly w-[85%]  mx-auto">
               <div class="w-[25%]  border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800">
                 <a href="#">
                     <img class="rounded-t-lg" src="./images/1.jpg" alt="" />
                 </a>
-                <div class="flex justify-between  items-center p-5 ">
+                <div class="flex justify-between  items-center p-5 text-[#5E6282] font-bold">
                     <div>
                       <p>Rome, Italty</p>
-                      <p>10 Days Trip</p>
+                        
+                        <div class="flex flex-row mt-3">
+                          <img src="./images/navigation 1.png" class="w-5 h-5 mr-3" alt="">
+                          <p class="flex flex-col">  10 Days Trip</p>
+                        </div>
                     </div>                   
                     <div>
                     <p>$5,42k</p>  
@@ -113,10 +114,13 @@
                 <a href="#">
                     <img class="rounded-t-lg" src="./images/2.jpg" alt="" />
                 </a>
-                <div class=" flex justify-between  items-center p-5 ">
+                <div class=" flex justify-between  items-center p-5 text-[#5E6282] font-bold">
                     <div>
                       <p>London, UK</p>
-                      <p>10 Days Trip</p>
+                      <div class="flex flex-row mt-3">
+                        <img src="./images/navigation 1.png" class="w-5 h-5 mr-3" alt="">
+                        <p class="flex flex-col">  10 Days Trip</p>
+                      </div>
                     </div>                   
                     <div>
                     <p>$15k</p>  
@@ -128,10 +132,13 @@
                 <a href="#">
                     <img class="rounded-t-lg" src="./images/3.jpg" alt="" />
                 </a>
-                <div class=" flex justify-between  items-center p-5 ">
+                <div class=" flex justify-between  items-center p-5 text-[#5E6282] font-bold">
                     <div class="block">
                       <p>Full, Europe</p>
-                      <p>10 Days Trip</p>
+                      <div class="flex flex-row mt-3 ">
+                        <img src="./images/navigation 1.png" class="w-5 h-5 mr-5" alt="">
+                        <p class="flex flex-col">  10 Days Trip</p>
+                      </div>
                     </div>                   
                     <div>
                     <p>$4.2k</p>  
@@ -146,18 +153,18 @@
 
       <!---------------------------------------next trip-------------------------------------  -->
       <section>
-        <div class="flex items-center  justify-between w-[85%]  mx-auto mt-5 mb-5">
+        <div class="flex items-center  justify-between w-[85%]  mx-auto mt-[100px] mb-5">
           <div class="w-[50%]">
-            <h6 class="text-1xl">Easy and Fast</h6>
-            <h6 class="text-4xl mt-5 mb-5">
-              Book your next trip <br>
+            <h6 class="text-1xl text-[#5E6282]">Easy and Fast</h6>
+            <h6 class="text-4xl mt-5 mb-5 font-[Garamond] text-[#181E4B] font-bold">
+              Books your next trip <br>
               in 3 easy steps
             </h6>
             <div href="#" class="flex flex-col items-cente rounded-lg  md:flex-row md:max-w-x ">   
               <button type="button" class=" bg-[#F0BB1F] rounded-lg w-[50px] h-[50px] my-auto flex justify-center items-center">
                 <img class="object-cover  rounded-full w-[30px] h-[30px] " src="./images/selection 1.svg">
               </button>
-               <div class="flex flex-col justify-between p-4 leading-normal">
+               <div class="flex flex-col justify-between p-4 leading-normal text-[#5E6282]">
                   <p class="mb-3 font-bold text-1xl">Choose Destination</p>
                   <p>Lorem ipsum dolor sit amet, consectetur <br>
                     adipiscing elit. Urna, tortor tempus. 
@@ -168,15 +175,15 @@
               <button type="button" class=" bg-[#F15A2B] rounded-lg w-[50px] h-[50px] my-auto   flex justify-center items-center">
                 <img class="object-cover rounded-full w-[30px] h-[30px] " src="./images/water-sport 1.svg">
               </button>
-               <div class="flex flex-col justify-between p-4 leading-normal">
-                  <p class="mb-3 font-bold text-1xl">Make Payment</p>
+               <div class="flex flex-col justify-between p-4 leading-normal text-[#5E6282]">
+                  <p class="mb-3 font-bold text-1xl ">Make Payment</p>
                   <p>Lorem ipsum dolor sit amet, consectetur <br>
                     adipiscing elit. Urna, tortor tempus. 
                   </p>
               </div>
             </div>
 
-            <div class="flex flex-col items-cente rounded-lg  md:flex-row md:max-w-x  "> 
+            <div class="flex flex-col items-cente rounded-lg  md:flex-row md:max-w-x text-[#5E6282] "> 
               <button type="button" class=" bg-[#006380] rounded-lg w-[50px] h-[50px] my-auto  flex justify-center items-center">
                 <img class="object-cover rounded-full w-[30px] h-[30px] " src="./images/Taxi Car Cab Vehicle Transport.png">
               </button>
@@ -190,38 +197,54 @@
           </div>
             
         <div class=" w-[50%] h-[500px]  ">
-          <div class="relative mt-[100px] bg-[#FFFFFF] w-[60%] p-5 mx-auto my-auto max-w-sm  rounded-3xl shadow-lg shadow-blue-500/50  dark:border-gray-700">
+          <div class="relative mt-[50px] bg-[#FFFFFF] w-[60%] p-5 mx-auto my-auto max-w-sm  rounded-3xl shadow-lg shadow-blue-500/50  dark:border-gray-700">
               <a href="#">
                   <img class="rounded-t-lg" src="./images/1.svg" alt="" />
               </a>
               <div class="p-5">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Trip To Greece</h5>
-                  <p>14-29 June | by Robbin joseph</p>
-                  <p>14-29 June | by Robbin joseph</p>
-                  <div class="flex flex-row">
-                    <img src="./images/Group.svg" class="w-5 h-5"> 
-                    <p> 24 people going</p>
-                  </div>  
+                  <p class="text-[#5E6282]">14-29 June | by Robbin joseph</p>
+                  <div class="mx-auto text-center mt-4">
+                    <div class="items-center  flex gap-5">
+                      <div class="w-[35px] h-[35px] bg-[#F5F5F5] shadow-sm drop-shadow-xl rounded-full items-center justify-center flex">
+                        <i class="fa-solid fa-leaf w-5 h-5 font-bold text-[#84829A]" ></i>
+                    </div>
+                    <div class="w-[35px] h-[35px] bg-[#F5F5F5] shadow-sm drop-shadow-xl  rounded-full items-center justify-center flex">
+                      <i class="fa-solid fa-book-open-reader text-[#84829A] w-5 h-5"></i>
+                    </div>
+                    <div class="w-[35px] h-[35px] bg-[#F5F5F5] shadow-sm drop-shadow-xl rounded-full items-center justify-center flex">
+                      <i class="fa-solid fa-paper-plane w-5 h-5  text-[#84829A]" ></i>
+                    </div>    
+                </div>
+                
+                <div>
+                 
+                </div>
+                  <div class="flex justify-between items-center mt-4">
+                      <div class="flex flex-row">
+                        <img src="./images/Group.svg" class="w-5 h-5"> 
+                        <p class="text-[#5E6282]"> 24 people going</p>
+                      </div> 
+                    <div>
+                      <img src="./images/heart.jpg" class="w-5 h-5" alt=""> 
+                    </div>
+                  </div>
               </div>
 
               <div class="bg-[#FFFFFF] absolute w-[70%] mt-[-150px] p-3 ml-[200px] h-[100px] 
-              flex flex-col items-cente rounded-lg  shadow-sm dark:bg-gray-800 
-              dark:border-gray-700 md:flex-row md:max-w-x"> 
+              flex flex-col items-cente rounded-lg  shadow-lg shadow-dark-500/50 
+              dark:border-gray-700 md:flex-row md:max-w-x "> 
                 <div class=" my-auto">
                  <img class=" object-cover rounded-full w-[60px] h-[60px]" src="./images/image 32.png">
                 </div>
-                <div class="flex flex-col ">
-                   <p>Ongoing</p>
+                <div class="flex flex-col  ">
+                   <p>On going</p>
                    <p class="mb-3 font-bold text-1xl">Trip to rome</pp>
                    <p>40% completed</p>
                    <!-- <img src="./images/Rectangle 19.png" alt=""> -->
                </div>
-              </div>
-              
+              </div>    
           </div>
-
-          
-
         </div>
       </section>
 
@@ -229,65 +252,80 @@
       <section></section>
 
       <section>
-        <div class="max-w-screen-xl flex items-center justify-between mx-auto p-4 w-[85%]">
-            <div class="w-[25%]">
-              <p>Jadoo</p>
-              <p>Book your trip in minute, get full<br>
+        <div class="max-w-screen-xl flex  justify-between mx-auto p-4 w-[85%] mt-[100px]">
+            <div class="w-[25%] text-[#5E6282]">
+              <p class="text-4xl text-[#181E4B] font-bold mb-4">Jadoo.</p>
+              <p >Book your trip in minute, get full<br>
                 Control for much longer.
                 </p>
             </div>
-            <div class="flex items-center justify-evenly gap-6 w-[50%]">
+            <div class="flex justify-evenly gap-6 w-[50%] text-[#5E6282]">
                 <div>
-                  <p>Company</p>
-                  <div>
+                  <p class="text-2xl text-black font-bold mb-4">Company</p>
+                  <div class="space-y-4">
                     <p>About</p>
                     <p>Career</p>
                     <p>Mobile</p>
                   </div>
                 </div>
                 <div>
-                  <p>Contact</p>
-                  <div>
+                  <p class="text-2xl text-black font-bold mb-4" >Contact</p>
+                  <div class="space-y-4">
                     <p>Help/FAQ</p>
                     <p>Press</p>
                     <p>Affilates</p>
                   </div>
                 </div>
                 <div>
-                  <p>More</p>
-                  <div>
+                  <p class="text-2xl text-black font-bold mb-4">More</p>
+                  <div class="space-y-4">
                     <p>Airlinefees</p>
                     <p>Airline</p>
                     <p>Low fare tips</p>
                   </div>
                 </div>
             </div>
-            <div class="w-[25%] text-end">
-                <div class="mx-auto text-center">
-                  <div class="items-center justify-center flex gap-5">
-                    <div class="w-[50px] h-[50px] bg-amber-400 rounded-full items-center justify-center flex">
-                      <img src="./images/fb.png" class="w-5 h-5" alt="" >
+            <div class="w-[25%] mx-auto flex flex-col items-center text-center">
+              <div class="mb-4">
+                <div class="flex gap-5 justify-center">
+                  <div class="w-[45px] h-[45px] bg-[#FFFFFF] shadow-sm drop-shadow-xl rounded-full flex items-center justify-center">
+                    <i class="fa-brands fa-facebook-f"></i>
                   </div>
-                  <div class="w-[50px] h-[50px] bg-amber-400 rounded-full items-center justify-center flex">
-                    <img src="./images/fb.png" class="w-5 h-5" alt="" >
+                  <div class="w-[45px] h-[45px] bg-[#C963E8] shadow-sm drop-shadow-xl rounded-full flex items-center justify-center">
+                    <i class="fa-brands fa-instagram text-white"></i>
                   </div>
-                  <div class="w-[50px] h-[50px] bg-amber-400 rounded-full items-center justify-center flex">
-                    <img src="./images/fb.png" class="w-5 h-5" alt="" >
-                  </div>    
-              </div>
-              <div>
-                <p>Discover our app</p>
-              </div>
-              <div>
-                <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Dark</button>
-                <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Dark</button>
-              </div>
+                  <div class="w-[45px] h-[45px] bg-[#FFFFFF] shadow-sm drop-shadow-xl rounded-full flex items-center justify-center">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </div>
                 </div>
-
+              </div>
+            
+              <div class=" mb-4">
+                <p class="text-[#5E6282]">Discover our app</p>
+              </div>
+            
+              <div class="flex gap-3">
+                <button type="button" class="flex items-center gap-2 text-white bg-[#080809] rounded-2xl p-2">
+                  <img src="./images/google-play 1.png" class="w-5 h-5" alt="">
+                  <div class="text-[10px] text-left">
+                    <p class="text-white">GET IT ON</p>
+                    <p class="text-white font-bold">GOOGLE PLAY</p>
+                  </div>
+                </button>
+            
+                <button type="button" class="flex items-center gap-2 text-white bg-[#080809] rounded-2xl p-2">
+                  <img src="./images/apple (2) 1.png" class="w-5 h-5" alt="">
+                  <div class="text-[10px] text-left">
+                    <p class="text-white">Available on</p>
+                    <p class="text-white font-bold">App Store</p>
+                  </div>
+                </button>
+              </div>
             </div>
+            
         </div>
+        <div class="text-center mt-[50px] text-[#5E6282]">All rights reserved@jadoo.com</div>
       </section>
-
 
       
       <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
