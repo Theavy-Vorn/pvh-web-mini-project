@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hotels</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="./styles/output.css">
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container-fluid">
+        <!---------------------------------------navbar-------------------------------------  -->
+        <section>
+          <nav class=" border-gray-200 dark:bg-gray-900 top-0 sticky z-100">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 w-[88%]">
+              <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                  <span class="self-center  whitespace-nowrap dark:text-white font-bold text-3xl font-[Garamond]" >Jadoo</span>
+              </a>
+              <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                  <span class="sr-only">Open main menu</span>
+                  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                  </svg>
+              </button>
+              <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                  <li>
+                    <a href="destination.html" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Desitnations</a>
+                  </li>
+                  <li>
+                    <a href="hotel.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Hotels</a>
+                  </li>
+                  <li>
+                    <a href="tour.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Flights</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Bookings</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Login</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Sign up</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">EN</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </section>
+
+      <!---------------------------------------main-------------------------------------  -->
+      <section class="bg-center bg-no-repeat bg-[url('https://wallpaperset.com/w/full/6/e/6/94981.jpg')] h-[90vh]">
+        <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-24 my-auto items-center">
+            <h1 class="mb-4 text-4xl tracking-tight leading-none font-bold font-[Garamond] text-white md:text-5xl lg:text-6xl mt-5">Enjoy in the best way!</h1>
+            <p class="text-lg font-bold font-[Garamond] text-white lg:text-xl sm:px-16 lg:px-48 mb-5">Enjoy our services for your trip anytime.</p>
+             <!-- ----------------------------table----------------------------------- -->
+              <section>
+                <div class="mx-auto w-full">
+                  <div class="w-[100%] mx-auto bg-[#7979794f] rounded-2xl py-[40px]">
+                    <table class="table-auto w-[90%] border-0 rounded-2xl mx-auto ">
+                      <thead>
+                        <tr>
+                          <td class="px-4 py-2 text-[#FA8B02] font-bold bg-white"><i class="fa-solid fa-earth-americas"></i> Public Tours</td>
+                          <td class="px-4 py-2 col-span-4 bg-[#ffffffb0] text-white"><i class="fa-solid fa-people-group"></i> Private Tours</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="bg-white">
+                          <td class="px-4 py-2"><i class="fa-solid fa-people-group"></i> Number of people</td>
+                          <td class="px-4 py-2"><i class="fa-solid fa-calendar"></i> Date</td>
+                          <td class="px-4 py-2"><i class="fa-solid fa-clock"></i> Time</td>
+                          <td class="px-4 py-2"><i class="fa-solid fa-flag"></i> Tour</td>
+                          <td class="px-4 py-2"><i class="fa-solid fa-car"></i> Transportation</td>
+                          <td class="px-4 py-2">Search</td>
+                        </tr>
+                        <tr class="bg-white">
+                          <td class="px-4 py-2"> 
+                            <select class=" border-0 rounded-lg focus:outline-none">
+                              <option>Choose number</option>
+                            </select>                    
+                          </td>
+                          <td class="px-4 py-2"> 
+                            <select class=" border-0 rounded-lg focus:outline-none">
+                              <option>Choose date</option>
+                            </select>                    
+                          </td>
+                          <td class="px-4 py-2"> 
+                            <select class=" border-0 rounded-lg focus:outline-none">
+                              <option>Choose time</option>
+                            </select>                    
+                          </td>
+                          <td class="px-4 py-2"> 
+                            <select class=" border-0 rounded-lg focus:outline-none">
+                              <option>Select tour</option>
+                            </select>                    
+                          </td>
+                          <td class="px-4 py-2"> 
+                            <select class=" border-0 rounded-lg focus:outline-none">
+                              <option>Select Transportation</option>
+                            </select>                    
+                          </td>
+                          <td class="px-4 py-2"> 
+                            <i class="fa-solid fa-magnifying-glass text-4xl"></i>                  
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>  
+                </div>  
+            </section>
+        </div>
+      </section>
+    
+     
+      <!-- -------------------------------------------card2----------------------------- -->
+      <section>
+        <div  class="w-[90%] mx-auto">
+          <div>
+            <h1 class="text-4xl mt-[50px] font-bold font-[Garamond]"><i class="fa-solid fa-fire-flame-curved text-[#FA8B02]"></i>Best Deal Hotels</h1>
+          <div >
+          <div class="flex justify-between items-center">
+            
+            <p class="bg-[#FFFFFF33] mb-[30px]">Quality as judged by customers. Book at the ideal price!</p>
+            <div  class="flex justify-between mb-5">
+              <div class="w-[50px] h-[50px] bg-[#FA8B02] rounded-full"><i class="fa-solid fa-arrow-left p-4 text-white"></i></div>
+              <div class="w-[50px] h-[50px] bg-[#FA8B02] rounded-full"><i class="fa-solid fa-arrow-right p-4 text-white"></i></div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+
+      <!-- ----------------------------------------card1---------------------------- -->
+      <section> 
+        <div class="w-[90%] mx-auto">      
+            <div class="flex justify-center ">
+              <div class=" h-[300px] w-[50%]">
+                  <div class="flex">
+                    <div class="card rounded-2xl relative ">
+                      <img class="rounded-2xl" src="https://s3-alpha-sig.figma.com/img/f154/16cc/692e79a82b5b915248c2d9025c2d6e4d?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=KpaYEABqjg0JZA41kOnrZuW00onuNZD6nx1a6wyA2Rq3fOdmqtVek4ZzbUL6ZBw-nSD~gITZy-k6BYvEMK~pB~Hi6puW3pR8461kG350y8SN0wDT0TDo1KdU2lHhTfPrLPOYP65C9XBH3VCn1mN-ZLMpO3a-bdI2-OY8lsBo7~KrapbJp2ukZCo5ya0sx3DDGlQmR-MfTkz65tNBMXWT7yLiVmysu7SjQDijNA3Zp7GnL9H0OCMPY0ydJDNtkXC-hJcYdSejTTKBhuWApN2nFsXGYl6fReENedhNriGCbPqlkNaEQQ3a2bhz98sVMN2vzJcsCpStqJwSrwkdvIj~5w__" alt="">
+                    </div>
+                    <div>
+                      <!-- <i class="fa-regular fa-heart absolute w-[40px] h-[40px] bg-white top-205 left-[80px] rounded-full p-4"></i>
+                      <i class="fa-solid fa-bookmark text-[#FA8B02] top-205 left-[520px] absolute z-20 text-4xl"></i> -->
+                      <div class="card shadow-sm shadow-black h-[300px] w-[350px] rounded-2xl absolute bg-white left-[290px] p-3">
+                        <button type="button" class="text-black rounded-2xl bg-[#FFF0EC] p-2 mt-2">Luxury</button>
+                        <p class="text-1xl font-bold mt-3">Fairmont Resort, Dubai,
+                          United Arab Emirates</p>
+                        
+                        <div class="flex justify-between items-center mt-3">
+                          <p class="text-xl"><span class="font-bold"><i class="fa-solid fa-location-dot"></i></span> <span class="text-[#5B5F62]">Dubai, UAE</span></p>
+                          <span class="space-x-0">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                          </span>
+                        </div>
+                          <div class="flex justify-between items-center mt-[50px]">
+                            <p class="text-xl"><span class="font-bold">$89</span> <span class="text-[#5B5F62]">/ night</span></p>
+                            <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Book Now</button>
+                          </div>
+
+                      </div>
+
+
+
+                    </div>
+                  </div>
+              </div>
+              <div class=" h-[300px] w-[50%]">
+                <div class="flex">
+                  <div class="card rounded-2xl relative ">
+                    <img class="rounded-2xl" src="https://s3-alpha-sig.figma.com/img/2454/6d8d/c3e6f5fbb75e61d9e29d0160121fdb51?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=SIXY2HS62KeZLfQV~vgD1CzE9eLevDPvagqooPao7NYsk5LNdfCU8J0fAtNJIRcVmqkornAzPkRe0Ca3i7aeYdTG46m0~SAJYi1Ese4ysr-B2XezbVdsy~mthVc078aftoj~~ENQqASfNVKmlk2zGj0hX0aTF9rkdfmKdgWN~hs~7qGfFooUgx6xN9CcqkJeNz6clbLXB2wrvMY1PUUuvaua78wgCA38VcRNEfKveV87xK4nxqnlrHrd4ukqhqJBWomib6Gb3EwQ38zt4d9M1tn5BxVJXMlOlO0gDZI9DPeLq9ECJDyEzJgubugBcj1rqPnLivUx91BSjaXysviTKA__" alt="">
+                  </div>
+                  <div>
+                      <!-- <i class="fa-regular fa-heart absolute w-[40px] h-[40px] bg-white top-205 left-[80px] rounded-full p-4"></i>
+                      <i class="fa-solid fa-bookmark text-[#FA8B02] top-205 left-[520px] absolute z-20 text-4xl"></i> -->
+
+
+                    <div class="card shadow-sm shadow-black h-[300px] w-[350px] rounded-2xl absolute bg-white left-[920px] p-3">
+                      <button type="button" class="rounded-2xl bg-[#E4F9F9] text-black p-2 mt-2">Famliy</button>
+                      <p class="text-1xl font-bold mt-3">Fairmont Resort, Dubai,
+                        United Arab Emirates</p>
+                      
+                      <div class="flex justify-between items-center mt-3">
+                        <p class="text-xl"><span class="font-bold"><i class="fa-solid fa-location-dot"></i></span> <span class="text-[#5B5F62]">Dubai, UAE</span></p>
+                        <span class="space-x-0">
+                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </span>
+                      </div>
+                        <div class="flex justify-between items-center mt-[50px]">
+                          <p class="text-xl"><span class="font-bold">$89</span> <span class="text-[#5B5F62]">/ night</span></p>
+                          <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Book Now</button>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>  
+            <div class="flex justify-center mt-5">
+              <div class="h-[300px] w-[50%]">
+                  <div class="flex">
+                    <div class="card rounded-2xl relative ">
+                      <img class="rounded-2xl" src="https://s3-alpha-sig.figma.com/img/2a9b/531a/c89575e639cf106370204097f6a51c10?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=g4R2OZJ7UEcXHRp3y-kV52ISBp8-eHObydIKpNQw527toNPPuzg4on6YI0p23RvuQSVD8ZQBU1dpuemXx~Ttjch9222zG3BXnSxvSvaXQ45t7uGxsjNzMmmUFdCxk5LiHSIWGvWCwflwD6T0bQBw0aQdn~1boBBfluHtdjr8QwJMVyqVhaN1S5WEd70Pg-Kh9V3cSD4euKdHcoQB1pA5DVOn1DEb7lMCgnblLI6R-6MvuuJPc5Qrw48IVKXvh~gPx2CjCIaF6-uKEUTFKIbsUFKN4EW9ZEkhYua2tvIg-Y8TghqP4j12zJNMYj3T10LEkUY7YXJIqlgu0-67I1nnIQ__" alt="">
+                    </div>
+                    <div>
+                      <!-- <i class="fa-regular fa-heart absolute w-[40px] h-[40px] bg-white top-205 left-[80px] rounded-full p-4"></i>
+                      <i class="fa-solid fa-bookmark text-[#FA8B02] top-205 left-[520px] absolute z-20 text-4xl"></i> -->
+                      <div class="card shadow-sm shadow-black h-[300px] w-[350px] rounded-2xl absolute bg-white left-[290px] p-3">
+                        <button type="button" class=" rounded-2xl bg-[#E4F9F9] text-black  p-2 mt-2">Business</button>
+                        <p class="text-1xl font-bold mt-3">Fairmont Resort, Dubai,
+                          United Arab Emirates</p>
+                        
+                        <div class="flex justify-between items-center mt-3">
+                          <p class="text-xl"><span class="font-bold"><i class="fa-solid fa-location-dot"></i></span> <span class="text-[#5B5F62]">Dubai, UAE</span></p>
+                          <span class="space-x-0">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                          </span>
+                        </div>
+                          <div class="flex justify-between items-center mt-[50px]">
+                            <p class="text-xl"><span class="font-bold">$89</span> <span class="text-[#5B5F62]">/ night</span></p>
+                            <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Book Now</button>
+                          </div>
+
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class=" h-[300px] w-[50%]">
+                <div class="flex">
+                  <div class="card rounded-2xl relative ">
+                    <img class="rounded-2xl" src="https://s3-alpha-sig.figma.com/img/48f6/a03e/620288fbbc08082082468037ad271af2?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cInijI-7zQPdqsvD1yip~ZsrE3Z30t6ky0adtbxI7EwOXnDVyAT1mUw1eBaOr-pz0EEOl4ULG3TAJ-idWK3R4Zqqnjarh6AqqDFk-sqPmHtnWGAzQJZ7W1FI0cPrVQRIPheOKxb4sXLfVUPDFaXrQNvuWg5gLZE8KQChbyXyYY09GD6n9O-SDUNps9By9byrYI3zO0D23P0~AqssPyXNzUmjTRKOQ74lWK~UTnkpFqjU9E9tu~AV0AfqbfFMWNLkmLeJzRkg1J50SQZ0-UgTUI1MWqeg4cRn2yy2zpwWciTRpiLg4tu9msJ5WlxhK6gp2NK~p5UuXZK3h53XM0OFxg__" alt="">
+                  </div>
+                  <div>
+                      <!-- <i class="fa-regular fa-heart absolute w-[40px] h-[40px] bg-white top-205 left-[80px] rounded-full p-4"></i>
+                      <i class="fa-solid fa-bookmark text-[#FA8B02] top-205 left-[520px] absolute z-20 text-4xl"></i> -->
+
+
+                    <div class="card shadow-sm shadow-black h-[300px] w-[350px] rounded-2xl absolute bg-white left-[920px] p-3">
+                      <button type="button" class=" rounded-2xl bg-[#E4F9F9] text-black  p-2 mt-2">Standard</button>
+                      <p class="text-1xl font-bold mt-3">Fairmont Resort, Dubai,
+                        United Arab Emirates</p>
+                      
+                      <div class="flex justify-between items-center mt-3">
+                        <p class="text-xl"><span class="font-bold"><i class="fa-solid fa-location-dot"></i></span> <span class="text-[#5B5F62]">Dubai, UAE</span></p>
+                        <span class="space-x-0">
+                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </span>
+                      </div>
+                        <div class="flex justify-between items-center mt-[50px]">
+                          <p class="text-xl"><span class="font-bold">$89</span> <span class="text-[#5B5F62]">/ night</span></p>
+                          <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Book Now</button>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>   
+      </div>   
+      </section>
+
+      <hr class="mt-[100px] text-[#5E6282]">
+        <!-- -------------------------------------------paragraph----------------------------- -->
+        <section>
+          <div  class="w-[90%] mx-auto">
+            <div>
+              <h1 class="text-4xl mt-[50px] font-bold font-[Garamond]">Top Rated Hotels</h1>
+            <div >
+            <div class="flex justify-between">
+              
+              <p class="bg-[#FFFFFF33] mb-[30px]">Quality as judged by customers. Book at the ideal price!</p>
+              <button class="bg-[#FA8B02] rounded-2xl p-2 text-white">View more <i class="fa-solid fa-arrow-right"></i> </button>
+            
+            </div>
+          </div>
+          </div>
+        </section>
+        <!-- -------------------------------------------card2----------------------------- -->
+         <section>
+          <div class="w-[90%] mx-auto mb-[250px]">
+            <div class="flex justify-between items-center">
+              <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="https://s3-alpha-sig.figma.com/img/a071/b269/9488c0e4db5217d42460bed5bca7d4ff?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Z8-FWHcJbZ9DTH1DdirjSYRmka9qmvwF-uWCrx0iSw4PP-6C~UQ7IBxYCw0mdBERO4q9VRjIsdPqe8-5lsgf0Zx97gk2kjyLXEHHS9igw24Np2NOkFPNxQds49YH4N8G2ME1RKV6OLn84LRIqiZeDoHgMZ1ajVuQWZ5BQR8twz6HAD9KGIMVgSI65nroxhH3c7I72huD69iD1m3H--rrhBXn1wBSXzEFVvdRXtLYaWtiU7TZ1C3nslaoLlx3~7gYVc6h7vuM0YM~MshIq0w8mhsOLZz~sjk7~LOgcwLglAathU-FwlYlloGTUWEWrKBc2kVl~UZ-Upa1QSfwef-HOA__" alt="" />
+                </a>
+                <div class=" card rounded-2xl absolute p-5 shadow-sm bg-white shadow-black w-[382px] top-480">
+              
+                  <p class="text-2xl font-bold mt-3">California Sunset/Twilight
+                    Boat Cruise</p>
+                  
+                  <div class="flex justify-between items-center mt-3">
+                    <p class="text-xl"><span class="font-bold"><i class="fa-solid fa-location-dot"></i></span> <span class="text-[#5B5F62]">Dubai, UAE</span></p>
+                    <span class="space-x-0">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="flex justify-between items-center mt-[30px]">
+                      <p class="text-xl"><span class="font-bold">$48.25</span> <span class="text-[#5B5F62]">/ person</span></p>
+                      <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Book Now</button>
+                </div>
+                </div>
+              </div>
+              <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="https://s3-alpha-sig.figma.com/img/f8c1/b214/ef371c50fcbe067544e6e25f0f5001c8?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=c4D16sOe50NU17Wu0NoKzEIXmh3pKFhYqeLJsNJX5a0Wun-YJU6y7qDv6lznlDXi7Klx-DGpq7iVkiOO~Hl5LANB0pklb3pQOFbx9f490tqo315Oxst~h8UcLoeTdP3P9MRQrQ0VlE~3FQrlG~uZBi6JuAhcDZRpn6o2yvj3LFYSUu8JfuWvPiLICLK06FvWwVMxUeBS-Q96EHbNEOeT09VVAtJy5DKnDaqH9PyJ~T6yIVR1atrEdwx5w-xPMkd9Rnr0n5CleKJluXT4~GmuXBJAnNWYR51nXHLHx4ykQaxJ7x022Z4fQVNQ65wzUKJSClq-iLfu4Vva5vW7kyQzfA__" alt="" />
+                </a>
+                <div class=" card rounded-2xl absolute p-5 shadow-sm bg-white shadow-black w-[382px] top-480">
+              
+                  <p class="text-2xl font-bold mt-3">NYC: Food Tastings and
+                    Culture Tour</p>
+                  
+                  <div class="flex justify-between items-center mt-3">
+                    <p class="text-xl"><span class="font-bold"><i class="fa-solid fa-location-dot"></i></span> <span class="text-[#5B5F62]">Dubai, UAE</span></p>
+                    <span class="space-x-0">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="flex justify-between items-center mt-[30px]">
+                      <p class="text-xl"><span class="font-bold">$48.25</span> <span class="text-[#5B5F62]">/ person</span></p>
+                      <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Book Now</button>
+                </div>
+                </div>
+              </div>
+              <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="https://s3-alpha-sig.figma.com/img/9f9c/5b5b/f418ae2c431fad8a69babd94696a7b36?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NRybqWkH7rQSfZg2b5GnxRPRCdjm0Z-Ugpc6zaEsWwUTJgGkrM97F6JjcKZaluaOSKM51l9t9u64oyEhENSpQtZWp2LK4FRGfcfczJebiaFEOI8jRw2J7sQMM9-xk6Jj08p0vcuylokGG6f~v79YCNG2Uw9q2fKblVF7GGbQMvdKobFetBYPmChiHv6BARFHMQDdH7enn6jKqvKG8kvOb3fHjKMfBZdhZGp1jxQ4twpte6EIN7Q3yMyT98u~-xjQvkUXv5wwQUqhhC79Px5zZLg0dpg2TfMh0JOrGkgxlLWYs5ft9L923L~lE~Rt~CeVoyvDtajpCOFv9DDrmzwtbQ__" alt="" />
+                </a>
+                <div class=" card rounded-2xl absolute p-5 shadow-sm bg-white shadow-black w-[382px] top-480">
+              
+                  <p class="text-2xl font-bold mt-3">Grand Canyon Horseshoe
+                    Bend 2 days</p>
+                  
+                  <div class="flex justify-between items-center mt-3">
+                    <p class="text-xl"><span class="font-bold"><i class="fa-solid fa-location-dot"></i></span> <span class="text-[#5B5F62]">Dubai, UAE</span></p>
+                    <span class="space-x-0">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="flex justify-between items-center mt-[30px]">
+                      <p class="text-xl"><span class="font-bold">$48.25</span> <span class="text-[#5B5F62]">/ person</span></p>
+                      <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Book Now</button>
+                </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+         </section>
+
+         <!-- -------------------------paragraph------------------------------- -->
+
+         <section>
+          <div  class="w-[90%] mx-auto">
+              <div class="flex justify-center items-center">
+                <button type="button" class=" text-white bg-[#FA8B02]  rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 ">Testimonials</button>  
+              </div >
+              <div>
+                  <h1 class="text-5xl text-center font-bold font-[Garamond]">Don't take our word for it</h1>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ----------------------------------------feedback--------------------------- -->
+         <section>
+            <div class="mx-auto w-[90%] mt-[50px]">
+              <div class="flex justify-between items-center">
+                <div class=" w-[50%] h-[300px]">
+                  <div class="w-[150px] h-[150px] bg-amber-900 rounded-full absolute left-50">
+                    <img src="https://wallpapers.com/images/featured/aesthetic-profile-picture-52t290ggbex44jma.webp" class="rounded-full ">
+                  </div>
+                  <div class="w-[120px] h-[120px] bg-amber-900 rounded-full absolute left-90 top-630">
+                    <img src="https://wallpapers.com/images/high/aesthetic-profile-picture-1rgefsojys253ard.webp" alt=""  class="rounded-full ">
+                  </div>
+                  <div class="w-[100px] h-[100px] bg-amber-900 rounded-full left-100 top-600 absolute">
+                    <img src="https://wallpapers.com/images/high/aesthetic-profile-picture-zf8svroig9oj4bwh.webp" alt=""  class="rounded-full ">
+                  </div>
+                  <div class="w-[70px] h-[70px] bg-amber-900 rounded-full left-60 top-630 absolute">
+                    <img src="https://wallpapers.com/images/high/aesthetic-profile-picture-woman-rvr7f5p5vtrqpzrk.webp" alt=""  class="rounded-full ">
+                  </div>
+                </div>
+                <div class=" w-[40%] h-[300px] p-3">
+                  <div class=" card rounded-2xl  p-5 shadow-sm bg-white shadow-black mx-auto ">
+                      <p class="text-2xl font-bold mt-3">The best booking system</p>
+                      <p class="text-[#5E6282]">I've been using the hotel booking system for several years
+                        now, and it's become my go-to platform for planning my trips.
+                        The interface is user-friendly, and I appreciate the detailed
+                        information and real-time availability of hotels.</p>
+                      
+                        <div class="flex items-center justify-start mt-5">
+                          <img class="rounded-full w-[90px] h-[90px]" src="https://s3-alpha-sig.figma.com/img/424d/fb4d/efe396f2afb931bb26871a8b39787a29?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=IbJXXx9Fvytm8ra7sQb1HoVivpinUpl0jC-nZxOeiUUctkDIJLoPYhX6VTcwg4VoSmH46c0xnrzff8N~KFa-WxmVQBuviMl2aMrGB~3hy-TVcF7sntK-5vpUgAHNQqeKJWjrESwgHl8qIbGTP9jK7zEWFRipOy3ynYrl9IL7rznxpK3vuOnzcqRcPJZ~ab25SN~NHU4-WqYjj3nDkhAtLNLGF83k8XgR1rCX1C3WHi485yS9GsN7oihALEPVN6s6LnrVwGCXefxKZ8-qjyhj00rEYZlQnZX~FX~Xm47gKwTiAaFl9QkLN-N3cr-0mKl3G~ZKfN8x5EZndgeV5OEtxA__">
+                          <div class="p-3">
+                              <div>Sara Mohamed</div>
+                              <div class="flex justify-end items-center">
+                                <div class=" text-gray-500 dark:text-gray-400 font-bold text-1xl ">Jakatar</div>
+                                <div>
+                                  <span class="space-x-0 text-[#FA8B02] float-end">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                  </span>
+                                </div>
+                              </div>
+                          </div>
+                        </div>  
+                    </div>
+                </div> 
+              </div>
+            </div>
+         </section>
+    
+      <!---------------------------------------footer-------------------------------------  -->
+     
+
+
+      <section>
+        <div class="max-w-screen-xl flex  justify-between mx-auto p-4 w-[85%] mt-[100px]">
+            <div class="w-[25%] text-[#5E6282]">
+              <p class="text-4xl text-[#181E4B] font-bold mb-4">Jadoo.</p>
+              <p >Book your trip in minute, get full<br>
+                Control for much longer.
+              </p>
+            </div>
+            <div class="flex justify-evenly gap-6 w-[50%] text-[#5E6282]">
+                <div>
+                  <p class="text-2xl text-black font-bold mb-4">Company</p>
+                  <div class="space-y-4">
+                    <p>About</p>
+                    <p>Career</p>
+                    <p>Mobile</p>
+                  </div>
+                </div>
+                <div>
+                  <p class="text-2xl text-black font-bold mb-4" >Contact</p>
+                  <div class="space-y-4">
+                    <p>Help/FAQ</p>
+                    <p>Press</p>
+                    <p>Affilates</p>
+                  </div>
+                </div>
+                <div>
+                  <p class="text-2xl text-black font-bold mb-4">More</p>
+                  <div class="space-y-4">
+                    <p>Airlinefees</p>
+                    <p>Airline</p>
+                    <p>Low fare tips</p>
+                  </div>
+                </div>
+            </div>
+            <div class="w-[25%] mx-auto flex flex-col items-center text-center">
+              <div class="mb-4">
+                <div class="flex gap-5 justify-center">
+                  <div class="w-[45px] h-[45px] bg-[#FFFFFF] shadow-sm drop-shadow-xl rounded-full flex items-center justify-center">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+                  <div class="w-[45px] h-[45px] bg-[#C963E8] shadow-sm drop-shadow-xl rounded-full flex items-center justify-center">
+                    <i class="fa-brands fa-instagram text-white"></i>
+                  </div>
+                  <div class="w-[45px] h-[45px] bg-[#FFFFFF] shadow-sm drop-shadow-xl rounded-full flex items-center justify-center">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </div>
+                </div>
+              </div>
+            
+              <div class=" mb-4">
+                <p class="text-[#5E6282]">Discover our app</p>
+              </div>
+              <div class="flex gap-3">
+                <button type="button" class="flex items-center gap-2 text-white bg-[#080809] rounded-2xl p-2">
+                  <img src="./images/google-play 1.png" class="w-5 h-5" alt="">
+                  <div class="text-[10px] text-left">
+                    <p class="text-white">GET IT ON</p>
+                    <p class="text-white font-bold">GOOGLE PLAY</p>
+                  </div>
+                </button>
+            
+                <button type="button" class="flex items-center gap-2 text-white bg-[#080809] rounded-2xl p-2">
+                  <img src="./images/apple (2) 1.png" class="w-5 h-5" alt="">
+                  <div class="text-[10px] text-left">
+                    <p class="text-white">Available on</p>
+                    <p class="text-white font-bold">App Store</p>
+                  </div>
+                </button>
+              </div>
+            </div>
+            
+        </div>
+        <div class="text-center mt-[50px] mb-[30px] text-[#5E6282]">All rights reserved@jadoo.com</div>
+      </section> 
+      <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+
+    </div>
+</body>
+</html>
